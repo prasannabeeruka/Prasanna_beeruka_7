@@ -7,10 +7,11 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import bean.DriverAddressBean;
-import bean.DriverBean;
-import bean.VehicleBean;
-import dao.administrator.DriverDao;
+import com.demo.example.bean.DriverAddressBean;
+import com.demo.example.bean.DriverBean;
+import com.demo.example.dao.administrator.DriverDao;
+
+
 
 @Component
 public class DriverService {
